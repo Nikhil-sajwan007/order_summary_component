@@ -163,7 +163,16 @@ padding: 1rem 1rem;
 .btn-1{
 
   background-color: var(--bright-blue);
-  font-weight: 600;
   border-radius: 8px;
   color: var(--white);
+}
+
+.btn-1, .btn-2{
+
+  font-weight: 600;
+}
+
+.btn-2{
+
+  color: #919191;
 }
