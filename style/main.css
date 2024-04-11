@@ -63,6 +63,7 @@ p {
 
 .container {
   max-width: 650px;
+
   width: 34%;
   border-radius: 14px;
 }
@@ -147,3 +148,22 @@ padding: 1rem 1rem;
 }
 
 
+.buttons-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-1{
+
+  background-color: var(--bright-blue);
+  font-weight: 600;
+  border-radius: 8px;
+  color: var(--white);
+}
