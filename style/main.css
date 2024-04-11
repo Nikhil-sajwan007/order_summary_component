@@ -1,0 +1,44 @@
+/* font import links from google  */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* marin body css  */
+
+
+
+/* glabal css start from here  */
+
+body{
+
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+:root{
+
+    /* primary colors  */
+
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --bright-blue : hsl(245, 75%, 52%);
+    
+    /* neutral color  */
+
+    --very-pale-blue : hsl(225, 100%, 98%);
+    --desaturated-blue : hsl(224, 23%, 55%);
+    --dark-blue : hsl(233,47%,23%);
+
+    /* typography */
+
+    --Primary-font : "Red Hat Display", sans-serif;
+
+
+    
+}
