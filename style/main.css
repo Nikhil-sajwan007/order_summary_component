@@ -25,14 +25,12 @@ body {
   align-items: center;
 }
 
-h3{
-
+h3 {
   font-family: var(--Primary-font);
   line-height: 1;
 }
 
-p{
-
+p {
   font-family: var(--Primary-font);
   line-height: 1.4;
 }
@@ -60,6 +58,8 @@ p{
   display: flex;
   flex-direction: column;
 }
+
+
 
 .container {
   max-width: 550px;
@@ -92,3 +92,31 @@ p{
   background-color: var(--white);
   padding: 2rem 2rem;
 }
+
+.content .order-summary {
+  text-align: center;
+}
+
+
+
+.plan{
+
+  background-color: var(--primary-pale-blue);
+border-radius: 4px;
+
+}
+
+
+.plan .price{
+
+  display: flex;
+}
+
+.plan .price h2{
+
+  font-size: 18px;
+
+}
+
+
+
