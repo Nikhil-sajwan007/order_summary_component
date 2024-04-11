@@ -62,8 +62,8 @@ p {
 
 
 .container {
-  max-width: 550px;
-  width: 25%;
+  max-width: 650px;
+  width: 30%;
   border-radius: 14px;
 }
 
@@ -101,9 +101,9 @@ p {
 
 .plan{
 
-  background-color: var(--primary-pale-blue);
+  background-color: var(--very-pale-blue);
 border-radius: 4px;
-
+padding: 0.5rem 0.7rem;
 }
 
 
@@ -118,5 +118,10 @@ border-radius: 4px;
 
 }
 
+.plan-details{
+
+  align-content: center;
+  margin-left: 0.7rem;
+}
 
 
