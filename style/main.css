@@ -19,7 +19,7 @@ body {
   background-size: cover;
   background-position: center;
   height:100vh;
-  opacity: 0.6;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,6 +58,8 @@ body {
   max-width: 550px;
   width: 25%;
   border-radius: 4px;
+  position: relative;;
+  padding-top: 12%;
   
 }
 
@@ -65,10 +67,14 @@ body {
 
 .img{
 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   background-image: url(/images/illustration-hero.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 15rem;
+  
 }
