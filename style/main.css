@@ -63,7 +63,7 @@ p {
 
 .container {
   max-width: 650px;
-  width: 30%;
+  width: 34%;
   border-radius: 14px;
 }
 
@@ -74,6 +74,7 @@ p {
   width: 100%;
   position: relative;
   padding-top: 50%;
+  border-radius: 12px 12px 0 0;
 }
 
 .img {
@@ -86,11 +87,16 @@ p {
   background-position: center;
   background-size: cover;
   width: 100%;
+  border-radius: 12px 12px 0 0;
 }
 
 .content {
   background-color: var(--white);
   padding: 2rem 2rem;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 }
 
 .content .order-summary {
@@ -102,26 +108,42 @@ p {
 .plan{
 
   background-color: var(--very-pale-blue);
-border-radius: 4px;
-padding: 0.5rem 0.7rem;
+border-radius: 8px;
+padding: 1rem 1rem;
+
 }
 
-
-.plan .price{
+.plan{
 
   display: flex;
 }
 
-.plan .price h2{
+.plan .price{
 
-  font-size: 18px;
+  display: flex;
+  flex-grow: 1;
+}
 
+.plan .price h4{
+
+  font-size: 16px;
+
+}
+
+.plan .price p{
+
+  font-size: 14px;
 }
 
 .plan-details{
 
   align-content: center;
   margin-left: 0.7rem;
+}
+
+.selection{
+
+  align-content: center;
 }
 
 
