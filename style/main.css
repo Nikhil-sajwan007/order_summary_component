@@ -19,6 +19,10 @@ body {
   background-size: cover;
   background-position: center;
   height:100vh;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 :root {
   /* primary colors  */
@@ -31,6 +35,7 @@ body {
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(233, 47%, 23%);
+  --white : #fff;
 
   /* typography */
 
@@ -38,3 +43,32 @@ body {
 }
 
 
+
+/* Design CSS start from here  */
+
+.d-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-card{
+
+  background-color: var(--white);
+  max-width: 550px;
+  width: 25%;
+  border-radius: 4px;
+  
+}
+
+
+
+.img{
+
+  background-image: url(/images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+}
