@@ -1,0 +1,10 @@
+@media only screen and (max-width : 375px){
+
+
+  .container{
+
+
+    width: 80%;
+    border-radius: 0;
+  }
+}
