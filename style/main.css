@@ -164,6 +164,13 @@ padding: 1rem 1rem;
   background-color: var(--bright-blue);
   border-radius: 8px;
   color: var(--white);
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--desaturated-blue);
+}
+
+.btn-1:hover{
+
+  background-color: var(--desaturated-blue);
 }
 
 .btn-1, .btn-2{
@@ -174,4 +181,10 @@ padding: 1rem 1rem;
 .btn-2{
 
   color: #919191;
+  cursor: pointer;
+}
+
+.btn-2:hover{
+
+  color: var(--dark-blue);
 }
