@@ -62,9 +62,10 @@ p {
 
 
 .container {
-  max-width: 550px;
+  max-width: 650px;
   /* width: 25%; */
   border-radius: 14px;
+  box-shadow: 1px 1px 70px #919191;
 }
 
 /* This is main image container  */
@@ -92,7 +93,7 @@ p {
 
 .content {
   background-color: var(--white);
-  padding: 2rem 2rem;
+  padding: 3rem 3rem;
   border-radius: 0 0 12px 12px;
   display: flex;
   gap: 2rem;
@@ -165,7 +166,8 @@ padding: 1rem 1rem;
   border-radius: 8px;
   color: var(--white);
   cursor: pointer;
-  box-shadow: 0 0 10px var(--desaturated-blue);
+  box-shadow: 0 3px 20px #919191;
+  transition: all ease-in-out 200ms ;
 }
 
 .btn-1:hover{
